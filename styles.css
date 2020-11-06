@@ -218,6 +218,7 @@ main{
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
+    margin-bottom: 15px;
 }
 .currency-table--date p{
     font-size: 1.2rem;
@@ -281,4 +282,20 @@ main{
     font-weight: normal;
     line-height: 1.6rem;
     color: #757575;
+}
+.main-comision--table .comision-table--date{
+    width: max-content;
+    height: 30px;
+    background-color: var(--soft-blue);
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.main-comision--table .comision-table--date p{
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
