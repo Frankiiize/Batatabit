@@ -449,18 +449,26 @@ main{
     color: #757575;
 }
 /* 1ra tarjeta plans*/
-
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container-card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    
 }
 .recomendado{
     position: absolute;
@@ -482,20 +490,20 @@ main{
     color: var(--black);
 }
 .plan-card--price{
+    display: flex;
+    justify-content: center;
     padding: 5px 0;
     font-size: 5.3rem;
     font-weight: bold;
     line-height: 5rem;
     color: var(--black);
-    position: relative;
+    
     margin-top: 10px;
 }
 .plan-card--price span{
     font-size: 1.2rem;
     font-weight: 300;
-    position: absolute;
-    left: 60px;
-    top: -8px;
+    margin-top: -13px;
 }
 .plan-card--saving{
     font-size: 1.2rem;
@@ -524,33 +532,12 @@ main{
     background-image: url("./assets/icons/arrow-right.png");
     vertical-align: text-bottom;
 }
-.basico{
-    position: absolute;
-    width: 101px;
-    height: 31px;
-    left: calc(50% - 50.5px);
-    top: -15px;
-    font-size: 1.2rem;
-    padding: 6px;
-    background-color: var(--secundary-blue);
-    border-radius: 8px;
-    color: var(--just-white);
-}
+
 .ilimitado--color{
     background-color: var(--warm-black);
     color: var(--just-white);
 }
-.Ilimitado{
-    position: absolute;
-    width: 101px;
-    height: 31px;
-    left: calc(50% - 50.5px);
-    top: -15px;
-    font-size: 1.2rem;
-    padding: 6px;
-    background-color: var(--bitcoin-orange);
-    border-radius: 8px;
-}
+
 .plan-card--price .span--ilimitado{
     left: 40px;
 }
