@@ -541,3 +541,29 @@ main{
 .plan-card--price .span--ilimitado{
     left: 40px;
 }
+footer{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+footer .social-link--container ul{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.social-link--container li{
+    margin: 10px 0;
+}
+.social-link--container a{
+    text-decoration: none;
+    color: var(--just-white);
+}
