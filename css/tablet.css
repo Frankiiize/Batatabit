@@ -1,0 +1,49 @@
+html{
+    font-size: 72.5%;
+}
+.main-exchange-container{
+    padding-top: 40px;
+}
+.main-exchange-container .backgroundImg{
+    width: 390px;
+    height: 390px;
+    background-image: url(../assets/imgs/bitcoin.png);
+    margin-bottom: 30px;
+}
+.main-exchange-container{
+    margin-bottom: 8px;
+}
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.main-currency-table .currency-table--title{
+    margin-left: 60px;
+}
+..main-currency-table .currency-table--title{
+    margin-left: 60px;
+}
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider{
+    justify-content: center;
+    height: 350px;
+    overflow-x: hidden;
+}
+.plans-container--slider .plan-card--saving{
+    height: 18px;
+}
+/* footer */
+.logo-footer--img{
+    width: 128px;
+    height:100px;
+    background-image: url(../assets/imgs/logoFooterX2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

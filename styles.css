@@ -140,7 +140,7 @@ main{
 .main-currency-table{
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 350px;
     height: auto;
     margin: 0 auto;
     font-family: "inter", sans-serif;
@@ -232,7 +232,7 @@ main{
 .main-comision--table{
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
+    max-width: 350px;
     margin: 0 auto;
     font-family: "DM sans",sans-serif;
     height: auto;
@@ -423,7 +423,7 @@ main{
 /* seccion de planes */
 .main-plans-container{
     width: 100%;
-    min-width: 235px;
+    min-height: 150px;
     padding-bottom: 70px;
     text-align: center;
 }
@@ -451,7 +451,7 @@ main{
 /* 1ra tarjeta plans*/
 .plans-container--slider{
     display: flex;
-    height: 316px;
+    min-height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -508,6 +508,7 @@ main{
 .plan-card--saving{
     font-size: 1.2rem;
     font-weight: 500;
+    height: 28px;
     line-height: 1.5rem;
     color: #757575;
     margin-top: 10px;
@@ -531,6 +532,9 @@ main{
     height: 20px;
     background-image: url("./assets/icons/arrow-right.png");
     vertical-align: text-bottom;
+}
+.plan-card--ca:hover{
+    cursor: pointer;
 }
 
 .ilimitado--color{
@@ -566,4 +570,12 @@ footer .social-link--container ul{
 .social-link--container a{
     text-decoration: none;
     color: var(--just-white);
+}
+.logo-footer--img{
+    width: 64px;
+    height:50px;
+    background-image: url(./assets/imgs/logoFooter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
