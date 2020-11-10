@@ -88,7 +88,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url(./assets/icons/mdi_keyboard_arrow_down.svg);
+    background-image: url(https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/mdi_keyboard_arrow_down.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -118,7 +118,7 @@ main{
     height: 195px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url(./assets/imgs/bitcoin.svg);
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/imgs/bitcoin.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url("./assets/icons/trending-down.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/trending-down.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 15px;
-    background-image: url("./assets/icons/trending-up.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/trending-up.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -317,7 +317,7 @@ main{
     height: 25px;
     top: calc(0% - 12.5px);
     left: calc(50% - 20px);
-    background-image: url(./assets/icons/batataIcon.svg);
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/batataIcon.svg");
 }
 .product-detail--title{
     width: 90%;
@@ -357,7 +357,7 @@ main{
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("./assets/icons/clock.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/clock.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,7 +380,7 @@ main{
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("./assets/icons/eye.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/eye.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,7 +389,7 @@ main{
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("./assets/icons/dollar-sign.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/dollar-sign.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -398,7 +398,7 @@ main{
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url("./assets/icons/check-circle.svg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/4a02288bb7f208e06ec11f9206e4a76f53d4fda0/assets/icons/check-circle.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url("./assets/imgs/bitcoinbaby2x.jpg");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/master/assets/imgs/bitcoinbaby2x.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -530,7 +530,7 @@ main{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("./assets/icons/arrow-right.png");
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/master/assets/icons/arrow-right.png");
     vertical-align: text-bottom;
 }
 .plan-card--ca:hover{
@@ -574,7 +574,7 @@ footer .social-link--container ul{
 .logo-footer--img{
     width: 64px;
     height:50px;
-    background-image: url(./assets/imgs/logoFooter.png);
+    background-image: url("https://raw.githubusercontent.com/Frankiiize/Batatabit/master/assets/imgs/logoFooter.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
