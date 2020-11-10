@@ -1,6 +1,9 @@
 html{
     font-size: 72.5%;
 }
+.header--title-container .header--buttom{
+    width: auto;
+}
 .main-exchange-container{
     padding-top: 40px;
 }
@@ -17,6 +20,14 @@ html{
     display: flex;
     width: 930px;
     margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+}
+.main-currency-table {
+    margin: 0;
+}
+.main-comision--table{
+    margin: 0;
 }
 .main-currency-table .currency-table--title{
     margin-left: 60px;
